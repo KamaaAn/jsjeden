@@ -8,4 +8,4 @@ function rysujChoinke(row){
   console.log(star);
   }
 };
-rysujChoinke(10);
+rysujChoinke(15);
