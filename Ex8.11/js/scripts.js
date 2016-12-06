@@ -4,5 +4,6 @@ var list = document.getElementById('Lista');
 var add = document.getElementById('addElem');
 
 add.addEventListener('click', function() {
-    list.innerHTML += '<li>item</li>'
+    var elements = document.getElementsByTagName('li').length;
+	list.innerHTML += '<li>item ' + elements + '</li>';
 });
